@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HealthMaster</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="background">
+            <div class="navbar">
+                <img src="media/logo (2).png" alt="logo" width="150px" height="95px">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+                    <li><a href="#">JOURNEY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="left-col">
+                    <h1>HealthMaster</h1>
+                    <img alt="blood" src="media/fullblood.png" id="fullblood" onclick="bloodTubes()" height="150px" width="190px">
+                    <br/>
+                    <select id="blood" onchange="bloodTubes()">
+                        <option name="tubes" value="tube 1">1</option>
+                        <option name="tubes" value="tube 2">2</option>
+                        <option name="tubes" value="tube 3">3</option>
+                        <option name="tubes" value="tube 4">4</option>
+                    </select>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
