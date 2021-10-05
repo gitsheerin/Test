@@ -9,7 +9,7 @@ public class Code {
     public Code(String name, int age, String title) {
         this.name = name;
         this.age = age;
-        this.title = title;
+        this.title = title; //change varaible name
     }
 
     public String toString() {
